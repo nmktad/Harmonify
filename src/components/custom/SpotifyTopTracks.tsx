@@ -1,7 +1,7 @@
 import { auth } from "@/auth";
 import { useSession } from "next-auth/react";
 import React, { useEffect, useState } from "react";
-import { AlbumArtwork } from "./custom/artwork";
+import { AlbumArtwork } from "./artwork";
 import Image from "next/image";
 
 // Authorization token that must have been created previously. See: https://developer.spotify.com/documentation/web-api/concepts/authorization
