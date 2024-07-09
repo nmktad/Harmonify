@@ -55,7 +55,7 @@ export default function Home() {
     } else {
       setSpotifyRecommendations([])
     }
-  }, [seedRecommendations])
+  }, [seedRecommendations, refetch])
 
   return (
     <div className="flex flex-col justify-between py-6 px-8 gap-8">
